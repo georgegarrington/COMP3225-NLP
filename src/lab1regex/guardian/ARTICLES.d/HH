@@ -1,0 +1,500 @@
+  307  mv all+sel.ids rep+all.ids
+  308  wc -l rep+*
+  309  wc -l replyguys.ids 
+  310  cat replyguys.ids rep+*.ids | sort | uniq -c > RR
+  311  vi RR
+  312  mv replyguys-insiderness.csv /Volumes/Data/HurriedBackups/NoMasks/ExternalNetwork/
+  313  ls -ltr
+  314  vi allaccounts.ids 
+  315  vi RR
+  316  grep realdonaldtrump *.ids
+  317  grep realdonaldtrump *.ids RR
+  318  history > H
+  319  vi H
+  320  grep awk H
+  321  ls -ltr
+  322  grep cherylmorrisw *.ids
+  323  grep 17karnage *.ids
+  324  grep -i stanzaselvaggia *.ids
+  325  vi RR
+  326  vi H
+  327  ls *.ids
+  328  grep stanza *.ids
+  329  grep stanzas *.ids
+  330  vi H
+  331  cat allaccounts.ids tweeters.ids selectedusers.ids | sort | unqi -c > SS
+  332  cat allaccounts.ids tweeters.ids selectedusers.ids | sort | uniq -c > SS
+  333  vi SS
+  334  jobs
+  335  vi selectedusers.ids 
+  336  vi SS
+  337  join selectedusers.ids SS > SS2
+  338  vi SS2
+  339  wc -l SS
+  340  vi SS
+  341  vi SS
+  342  vi ZZ.csv 
+  343  ls -l *+*ids
+  344  ls -l *.ids
+  345  wc -l allaccounts.ids 
+  346  wc -l tweeters.ids 
+  347  pwd
+  348  cd ~/Downloads/
+  349  cd 4Phil
+  350  ls
+  351  cd 2ndCollection/
+  352  ls *html | wc -l
+  353  ls wd*html | sed -e 's/.....$//' -e 's/.*-//'`
+  354  ls wd*html | sed -e 's/.....$//' -e 's/.*-//'
+  355  ls wd*html | sed -e 's/.....$//' -e 's/.*-//' | pr -3
+  356  ls wd*html | sed -e 's/.....$//' -e 's/.*-//' | sort | pr -3
+  357  ls wd*html | sed -e 's/.....$//' -e 's/.*-//' | sort -f | pr -3
+  358  L
+  359  history | grep list
+  360  t
+  361  cd
+  362  t list
+  363  ls
+  364  cd Downloads/
+  365  ls
+  366  cd 4Phil
+  367  ls
+  368  grep -i iprimary .
+  369  grep -i iprimary -r .
+  370  grep -r -Learn2primary -r .
+  371  cd 2ndCollection/
+  372  mv ../../wd-98-iLearn2Primary.html .
+  373  L
+  374  L
+  375  L
+  376  ruby -v
+  377  gem install t
+  378  sudo gem install t
+  379  gem list
+  380  gem list bigdecimal
+  381  cd /Library/Ruby/Gems/2.3.0/extensions/universal-darwin-18/2.3.0/
+  382  cd http_parser.rb-0.6.0/
+  383  ls
+  384  vi *
+  385  bundle show bigdecimal
+  386  gem bundle show bigdecimal
+  387  gem env
+  388  cd ~/.gem
+  389  ls -al ~
+  390  ls -al ~ | grep ' \.'
+  391  cd .gem
+  392  ls -al
+  393  cd ruby
+  394  ls al
+  395  ls -al
+  396  cd 2.3.0/
+  397  ls -al
+  398  cd gems
+  399  ls
+  400  ls -al
+  401  cd http_parser.rb-0.6.0/
+  402  ls -al
+  403  vi Gemfile
+  404  vi http_parser.rb.gemspec 
+  405  L
+  406  L
+  407  cd Downloads/
+  408  ls t-*
+  409  ls -ld *master*
+  410  /Users/lac/Documents/old-eprints/timings/ALL-2005-10-27/NEW/COMPLETE 
+  411  ls /Users/lac/Documents/old-eprints/timings/ALL-2005-10-27/NEW/COMPLETE
+  412  ls | grep -v ^xx
+  413  pwd
+  414  ls /Users/lac/Documents/old-eprints/timings/ALL-2005-10-27/NEW/COMPLETE
+  415  cd /Users/lac/Documents/old-eprints/timings/ALL-2005-10-27/NEW/COMPLETE
+  416  ls | grep -v ^xx
+  417  vi xx*
+  418  cd ..
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd ..
+  423  ls
+  424  vi 00*
+  425  ls
+  426  open .
+  427  ls
+  428  cd ~/Documents/old-eprints/timings/ALL-2005-10-27/EDIT
+  429  ls
+  430  cd
+  431  ls
+  432  cd /Volumes/Data/
+  433  ls
+  434  cd HurriedBackups/
+  435  ls
+  436  ls -ltr
+  437  cd NHS111/
+  438  ls
+  439  ls -ltr
+  440  cd Data-Collection\ 3/
+  441  ls
+  442  grep ToryFibs *
+  443  open .
+  444  VI ~/Downloads/edges.csv 
+  445  vi ~/Downloads/accounts.csv 
+  446  grep -i ^they /usr.share/dict/words
+  447  grep -i ^they /usr/share/dict/words
+  448  grep -i they /usr/share/dict/words
+  449  grep -i hey /usr/share/dict/words
+  450  cd
+  451  ls -lR Dropbox > DB.lst
+  452  vi DB.lst 
+  453  fg
+  454  find Dropbox/ -ls > DB.lst &
+  455  more DB.lst 
+  456  fg
+  457  curl 'http://api.openweathermap.org/data/2.5/weather?q=Southampton,uk&appid=0071838875c330a861472720dce4cf46'
+  458  curl 'http://api.openweathermap.org/data/2.5/weather?q=Southampton,uk&appid=0071838875c330a861472720dce4cf46' | jq weather
+  459  man jq
+  460  curl 'http://api.openweathermap.org/data/2.5/weather?q=Southampton,uk&appid=0071838875c330a861472720dce4cf46' | jq .weather
+  461  curl 'http://api.openweathermap.org/data/2.5/weather?q=Southampton,uk&appid=0071838875c330a861472720dce4cf46' | jq '.weather[0].description'
+  462  man -k pdf
+  463  ps2ascii 
+  464  ps2ascii  --help
+  465   ps2ascii ~/Downloads/2914586.2914619.pdf > /tmp/2914586.2914619.txt
+  466  vi /tmp/2914586.2914619.txt
+  467  man -k camera
+  468  man AppleCameraAssistant
+  469  ps2ascii  --help
+  470  cd ~/Downloads/
+  471  ls -ltr
+  472  man pdftosrc
+  473  ps2ascii --help
+  474  ls -ltr | tail -10
+  475  ps2ascii 74224.74229.pdf > 74224.74229.txt
+  476  vi 74224.74229.txt
+  477  open 74224.74229.pdf 
+  478  cd ../Desktop/
+  479  scp cloud.png rain.png sun.png lac@stafflogin.ecs.soton.ac.uk:.WWW
+  480  ssh lac@stafflogin.ecs.soton.ac.uk:.WWW
+  481  ssh lac@stafflogin.ecs.soton.ac.uk
+  482  L
+  483  twarc
+  484  comp3207
+  485  pip3 
+  486  pip3  install instaloader
+  487  pip3 install --upgrade pip3
+  488  pip3 install --upgrade pip
+  489  grep ^brow /usr.share/dict/words
+  490  grep ^brow /usr/share/dict/words
+  491  grep ^brow'..$' /usr/share/dict/words
+  492  math -x .e.g..
+  493  match -x .e.g..
+  494  grep ^.e.g..'$' /usr/share/dict/words
+  495  grep '^.t.r....$' /usr.share/dict/words
+  496  grep '^.t.r....$' /usr/share/dict/words
+  497  cd Downloads/
+  498  ls -ltr
+  499  file *.mobi
+  500  vi *.mobi
+  501  cd Downloads/
+  502  cd App\ or\ NoApp/
+  503  cd docs
+  504  ls
+  505  mv tweets.tab.txt tweets.tab
+  506  pwd
+  507  cd ..
+  508  cd ..
+  509  cd
+  510  cd Desktop/Teaching20-21/COMP3225
+  511  ls -ltr
+  512  mv 02-NLP-words-2021\ students.pdf 02-NLP-words-2021-students.pdf
+  513  ls -ltr
+  514  scp 02-NLP-words-2021-students.pdf lac@stafflogin.ecs.soton.ac.uk:/notes/comp3225/lectures/02-NLP-words-2021.pdf
+  515  grep rckle /usr/share/dict/words
+  516  grep '^..H\(.\).\1$' /usr/share/dict/words
+  517  grep '^..h\(.\).\1$' /usr/share/dict/words
+  518  grep '^..h[mr]e$' /usr/share/dict/words
+  519  grep '^\(.\)tt\1....$' /usr/share/dict/words
+  520  grep '^......at$' /usr/share/dict/words
+  521  grep '^..\(.\).\1tt\1$' /usr/share/dict/words
+  522  grep '^.oet..$' /usr/share/dict/words
+  523  grep '^err...$' /usr/share/dict/words
+  524  grep '^d...e.s$' /usr/share/dict/words
+  525  grep '^..a.l$' /usr/share/dict/words
+  526  grep '^e.o.i$' /usr/share/dict/words
+  527  grep '^c.e.c.n.o$' /usr/share/dict/words
+  528  grep '^\(.\)..\1.\1.$' /usr/share/dict/words
+  529  cd ../../../Downloads/
+  530  grep -l lightbulb WebDataRA-202*
+  531  open WebDataRA-2020-12-07T12_41_44.html
+  532  open WebDataRA-2021-01-18T16_16_56.html
+  533  open WebDataRA-2021-01-13T12_05_13.html
+  534  open WebDataRA-2021-01-13T11_31_56.html
+  535  cp WebDataRA-2021-01-13T12_05_13.html ~/Desktop/Teaching20-21/COMP3225/lightbulbs-2015.html
+  536  open WebDataRA-2021-01-13T11_31_56.html
+  537  open WebDataRA-2021-01-13T11_31_56.html
+  538  open `grep -l lightbulb WebDataRA-202*`
+  539  cd
+  540  cd Desktop/Teaching20-21/COMP3255
+  541  cd Desktop/Teaching20-21/COMP3225
+  542  vi newsapikey
+  543  curl http://newsapi.org/v2/top-headlines -G     -d country=uk     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json
+  544  jq newsapi.json
+  545  jq . newsapi.json
+  546  curl http://newsapi.org/v2/top-headlines -G     -d sources=bbc-news     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json
+  547  jq . newsapi.json
+  548  jq '.[].title' newsapi.json
+  549  vi newsapi.json 
+  550  jq '.articles[].title' newsapi.json
+  551  vi newsapi
+  552  vi newsapikey 
+  553  curl http://newsapi.org/v2/everything -G     -d q=Southampton     -d from=2021-01-01     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  554  jq . newsapi.json
+  555  vi newsapikey 
+  556  curl http://newsapi.org/v2/everything -G     -d q=Southampton     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  557  jq . newsapi.json
+  558  jq '.articles[].title' newsapi.json
+  559  curl http://newsapi.org/v2/top-headlines -G     -d sources=bbc-news     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json
+  560  curl http://newsapi.org/v2/everything -G     -d sources=bbc-news     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json
+  561  jq '.articles[].title' newsapi.json
+  562  curl http://newsapi.org/v2/everything -G     -d q=Southampton     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  563  curl http://newsapi.org/v2/everything -G     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  564  jq '.articles[].title' newsapi.json
+  565  curl http://newsapi.org/v2/everything -G     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json vi newsapikey 
+  566  vi newsapikey 
+  567  jq '.articles[].title' newsapi.json
+  568  jq '.articles[].URL' newsapi.json
+  569  jq '.articles[].url' newsapi.json
+  570  vi newsapikey 
+  571  curl http://newsapi.org/v2/everything -G     -d source=bbc-news     -d q=COVID     -d from=2021-01-01     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf
+  572  vi newsapikey 
+  573  curl http://newsapi.org/v2/everything -G     -d source=bbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf
+  574  curl http://newsapi.org/v2/everything -G     -d source=bbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  575  jq '.articles[].url' newsapi.json
+  576  curl http://newsapi.org/v2/everything -G     -d source=bbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  577  curl http://newsapi.org/v2/everything -G     -d source=bbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  578  jq . newsapi.json
+  579  cu:p
+  580  curl http://newsapi.org/v2/everything -G     -d source=bbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  581  curl http://newsapi.org/v2/everything -G     -d sourcesbbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  582  jq . newsapi.json
+  583  dls -l newsapi.json
+  584  ls -l newsapi.json
+  585  date
+  586  curl http://newsapi.org/v2/everything -G     -d sourcesbbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  587  curl http://newsapi.org/v2/everything -G     -d sources=bbc-news     -d q=COVID     -d from=2021-01-02     -d sortBy=popularity     -d apiKey=a62786907743415c9b206cb35fa719bf > newsapi.json 
+  588  jq . newsapi.json
+  589  jq '.articles[].title' newsapi.json
+  590  vi newsapikey 
+  591  jq '.articles[].title' newsapi.json
+  592  jq '.articles[].url' newsapi.json
+  593  jq -r '.articles[].url' newsapi.json
+  594  mkdir BBC.d
+  595  jq -r '.articles[].url' newsapi.json
+  596  jq -r '.articles[].url' newsapi.json > BBC.d/I
+  597  cd BBC.d/
+  598  for i in `cat I`; do curl -O "$i"; done
+  599  vi *
+  600  ls
+  601  cp 55574199 X.html
+  602  open X.html
+  603  vi X.html
+  604  vi health-55586994 
+  605  sed -e 's/<[^>]*>/ /g' -e 's/&[^ ;]*[ ;]/ /g' 55574199 
+  606  sed -e 's/<[^>]*>/ /g' -e 's/&[^ ;]*[ ;]/ /g' 55574199 > X
+  607  vi X
+  608  open X.html
+  609  ls
+  610  sed -e 's/<[^>]*>/ /g' *-*
+  611  ls *-*
+  612  sed -e 's/<[^>]*>/ /g' h*-*
+  613  vi health-55586994 
+  614  vi DODECLUTTER
+  615  sh DODECLUTTER health-55586994
+  616  vi DODECLUTTER
+  617  sh DODECLUTTER health-55586994
+  618  brew install https://raw.githubusercontent.com/EricChiang/pup/master/pup.rb
+  619  git -C /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core fetch --unshallow
+  620  ls
+  621  open X.html
+  622  cd ../BBC.d/
+  623  for i in `cat I`; do curl -O "$i"; done
+  624  cd ../Guardian.d/
+  625  ls
+  626  for i in `cat I`; do curl -O "$i"; done
+  627  ls
+  628  vi woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire 
+  629  vi DODECLUTTER
+  630  sh DODECLUTTER woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire 
+  631  vi woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire 
+  632  vi DODECLUTTER 
+  633  sh DODECLUTTER woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire 
+  634  sh DODECLUTTER woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire  | more
+  635  vi DODECLUTTER 
+  636  sh DODECLUTTER woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire  | more
+  637  vi DODECLUTTER 
+  638  ls
+  639  mkdir ORIG.d
+  640  ls *-*
+  641  mv *-* ORIG.d/
+  642  ls
+  643  vi DODECLUTTER 
+  644  sh DODECLUTTER ORIG.d/*
+  645  ls
+  646  open .
+  647  vi ORIG.d/a-nurse-a-taxi-driver-a-schoolchild-six-uk-lives-lost-to-covid-19-in-june 
+  648  vi ORIG.d/woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire 
+  649  cd ORIG.d/
+  650  grep -l '<main' * | wc -l
+  651  grep -l '<main' * 
+  652  vi a-nurse-a-taxi-driver-a-schoolchild-six-uk-lives-lost-to-covid-19-in-june 
+  653  vi ../DODECLUTTER 
+  654  vi a-nurse-a-taxi-driver-a-schoolchild-six-uk-lives-lost-to-covid-19-in-june 
+  655  fg
+  656  cd ..
+  657  sh DODECLUTTER ORIG.d/*
+  658  ls -ltr
+  659  vi woman-held-after-body-of-newborn-baby-found-near-southampton-hampshire.txt 
+  660  vi thousands-attend--bradford-fire-memorial-archive-1985.txt
+  661  vi ORIG.d/uk-retail-sales-covid-19-alcohol-stock-markets-confidence-business-live 
+  662  vi a-nurse-a-taxi-driver-a-schoolchild-six-uk-lives-lost-to-covid-19-in-june.txt 
+  663  vi ORIG.d/a-nurse-a-taxi-driver-a-schoolchild-six-uk-lives-lost-to-covid-19-in-june 
+  664  vi DODECLUTTER 
+  665  sh DODECLUTTER ORIG.d/*
+  666  ls -ltr
+  667  vi ORIG.d/uk-retail-sales-covid-19-alcohol-stock-markets-confidence-business-live 
+  668  grep -l liveblog-body-content ORIG.d/*
+  669  ls -l `grep -l liveblog-body-content ORIG.d/*`
+  670  ls -l `grep -l liveblog-body-content ORIG.d/*| sed -e 's/ORIG.d.//'`
+  671  ls -l `grep -l liveblog-body-content ORIG.d/*| sed -e 's/ORIG.d./.txt/'`
+  672  ls -l `grep -l liveblog-body-content ORIG.d/*| sed -e 's/ORIG.d.//' -e 's/$/.txt/'`
+  673  vi DODE
+  674  vi DODECLUTTER 
+  675  fg
+  676  sh DODECLUTTER ORIG.d/*
+  677  vi DODECLUTTER 
+  678  sh DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  679  ls -ltr
+  680  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  681  vi ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  682  vi DODECLUTTER 
+  683  sh DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  684  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  685  vi ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  686  vi DODE
+  687  vi DODECLUTTER 
+  688  sh DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  689  vi ./coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  690  vi ./coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  691  vi ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  692  vi DODECLUTTER 
+  693  sh DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  694  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  695  vi DODECLUTTER 
+  696  sh DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  697  ls -l coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  698  man grep
+  699  vi DODECLUTTER 
+  700  sh DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1 
+  701  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  702  vi DODECLUTTER 
+  703  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  704  ls -l coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  705  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt
+  706  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt
+  707  vi DODECLUTTER 
+  708  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  709  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates?page=with:block-5e941c8b8f08db3109f216d1.txt
+  710  vi DODECLUTTER 
+  711  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  712  vi XX
+  713  vi DODECLUTTER 
+  714  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  715  vi XX
+  716  fg
+  717  vi DODECLUTTER 
+  718  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  719  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  720  vi XX
+  721  vi DODECLUTTER 
+  722  sh -x DODECLUTTER ORIG.d/coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1
+  723  vi coronavirus-uk-live-news-praise-nhs-nurses-prime-minister-boris-johnson-latest-updates\?page\=with\:block-5e941c8b8f08db3109f216d1.txt 
+  724  sh DODECLUTTER ORIG.d/*
+  725  open .
+  726  for i in `cat I`; do curl -O "$i"; done
+  727  cd ORIG.d/
+  728  for i in `cat ../I2`; do curl -O "$i"; done
+  729  cd ..
+  730  vi DODECLUTTER 
+  731  sh DODECLUTTER ORIG.d/*
+  732  sh DODECLUTTER ORIG.d/*
+  733  ls -ltr
+  734  vi five-fishermen-a-stormy-night-and-53m-of-cocaine-were-the-freshwater-five-wrongly-convicted.txt 
+  735  mkdir PROCESSED.d
+  736  mv *.txt PROCESSED.d
+  737  ls
+  738  vi DODECLUTTER 
+  739  ls
+  740  cd PROCESSED.d/
+  741  man grep
+  742  grep -o '\d+' uk*
+  743  man grep
+  744  grep -E -o '\d+' uk*
+  745  grep -h -E -o '\d+' uk*
+  746  grep -h -E -o '\d+(\.\d+)?' uk*
+  747  man grep
+  748  grep --color -E '\d+(\.\d+)?' uk*
+  749  grep --color -E '[^\d ]*\d+(\.\d+)?[^\d ]*' uk*
+  750  grep --color -E '[^\d ]*\d+(\.,\d+)?[^\d ]*' uk*
+  751  grep -o -E '[^\d ]*\d+(\.,\d+)?[^\d ]*' uk*
+  752  vi uk-weather-thousands-without-electricity-as-storm-ciara-batters-britain-snow-ice.txt
+  753  vi uk-weather-thousands-without-electricity-as-storm-ciara-batters-britain-snow-ice.txt
+  754  grep -o -h -E '[^\d ]*\d+(\.,\d+)?[^\d ]*' uk*
+  755  grep -o -h -E '[^\d ]*\d+(\.,\d+)?[^\d ]*' uk* | sort -n
+  756  grep -o -h -E -e '[^\d ]*\d+(\.,\d+)?[^\d ]*' -e '\w+illion\b'  uk* | sort -n
+  757  grep illion *
+  758  grep -o -h -E -e '[^\d ]*\d+(\.,\d+)?[^\d ]*' -e '\w+illions?'  uk* | sort -n
+  759  grep -o -h -E -e '[^\d ]*\d+(\.,\d+)?[^\d ]*' -e '\w+illions?'  uk* | grep illion
+  760  grep -o -h -E -e '[^\d ]*\d+(\.,\d+)?[^\d ]*' -e '\w+illions?' -e hundred -e thousand uk* | sort -n
+  761  grep -o -h -E -e '[^\d ]*\d+(\.,\d+)?[^\d ]*' uk* | sort -n
+  762  grep --color always illion *
+  763  grep --color illion *
+  764  grep -o '............illion............' *
+  765  grep -oh '............illion............' *
+  766  grep -oh '............bn............' *
+  767* 
+  768  grep -oh '............\d\w............' *
+  769  grep -oh '............\d+\w............' *
+  770  grep -oh '............\d\w............' *
+  771  grep -Eoh '............\d\w............' *
+  772  grep -Eh --color '............\d\w............' *
+  773  grep -Eh --color '\d\w' *
+  774  man regex
+  775  man 5 regex
+  776  man -s regex
+  777  man -k regex
+  778  man 5 regexp_table
+  779  man regexp
+  780  man grep
+  781  man -k extended
+  782  grep --color mph *
+  783  grep --color '\Wmph' *
+  784  grep --color '\wmph' *
+  785  grep -Eh --color '............\d[A-Za-z]............' *
+  786  grep -Eh --color '............\d[^ 0-9A-Za-z]............' *
+  787  grep -oh --color '............\d+[^ 0-9A-Za-z]............' *
+  788  grep -Eoh --color '............\d+[^ 0-9A-Za-z]............' *
+  789  grep -Eoh '............\d+[^ 0-9A-Za-z]............' *
+  790  grep -Eoh '\d+[^ 0-9A-Za-z]' *
+  791  grep -Eoh '\d+[^ 0-9A-Za-z]' * > XX
+  792  vi XX
+  793  sh DD
+  794  !
+  795  v
+  796  vi XX
+  797  vi DD
+  798  sh DD
+  799  vi DD
+  800  sh DD
+  801  sh DD > YY
+  802  vi YY
+  803  vi DD
+  804  sh DD > YY
+  805  vi YY
+  806  history > HH
